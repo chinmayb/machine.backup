@@ -1,0 +1,23 @@
+2024/09/07 18:50:58 [error] 184#184: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.0.89, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "192.168.0.9", referrer: "http://192.168.0.9/nginx/proxy"
+2024/09/07 19:35:28 [error] 175#175: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.0.89, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "192.168.0.9", referrer: "http://192.168.0.9/nginx/proxy"
+2024/09/08 17:36:16 [error] 184#184: *1 "/var/www/html/api/index.html" is not found (2: No such file or directory), client: 192.168.0.89, server: localhost-nginx-proxy-manager, request: "GET /api/ HTTP/1.1", host: "192.168.0.9", referrer: "http://192.168.0.9/"
+2024/09/08 17:36:28 [error] 184#184: *1 open() "/var/www/html/api/tokens" failed (2: No such file or directory), client: 192.168.0.89, server: localhost-nginx-proxy-manager, request: "POST /api/tokens HTTP/1.1", host: "192.168.0.9", referrer: "http://192.168.0.9/login"
+2024/09/08 17:36:30 [error] 184#184: *1 open() "/var/www/html/api/tokens" failed (2: No such file or directory), client: 192.168.0.89, server: localhost-nginx-proxy-manager, request: "POST /api/tokens HTTP/1.1", host: "192.168.0.9", referrer: "http://192.168.0.9/login"
+2024/09/08 17:36:38 [error] 184#184: *1 open() "/var/www/html/api/tokens" failed (2: No such file or directory), client: 192.168.0.89, server: localhost-nginx-proxy-manager, request: "POST /api/tokens HTTP/1.1", host: "192.168.0.9", referrer: "http://192.168.0.9/login"
+2024/09/08 17:36:47 [error] 184#184: *1 open() "/var/www/html/api/tokens" failed (2: No such file or directory), client: 192.168.0.89, server: localhost-nginx-proxy-manager, request: "POST /api/tokens HTTP/1.1", host: "192.168.0.9", referrer: "http://192.168.0.9/login"
+2024/09/08 17:36:49 [error] 184#184: *1 open() "/var/www/html/api/tokens" failed (2: No such file or directory), client: 192.168.0.89, server: localhost-nginx-proxy-manager, request: "POST /api/tokens HTTP/1.1", host: "192.168.0.9", referrer: "http://192.168.0.9/login"
+2024/09/08 17:36:58 [warn] 184#184: 512 worker_connections are not enough, reusing connections
+2024/09/08 17:36:58 [alert] 184#184: 512 worker_connections are not enough
+2024/09/08 17:36:58 [error] 185#185: *1056 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "192.168.0.9", referrer: "http://192.168.0.9/"
+2024/09/08 18:31:11 [error] 244#244: *1147 open() "/var/www/html/login:81" failed (2: No such file or directory), client: 192.168.0.89, server: localhost-nginx-proxy-manager, request: "GET /login:81 HTTP/1.1", host: "192.168.0.9"
+2024/09/08 18:31:11 [warn] 244#244: 512 worker_connections are not enough, reusing connections
+2024/09/08 18:31:11 [alert] 244#244: 512 worker_connections are not enough
+2024/09/08 18:31:11 [error] 245#245: *2153 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "192.168.0.9", referrer: "http://192.168.0.9/login:81"
+2024/09/08 18:33:56 [warn] 270#270: 512 worker_connections are not enough, reusing connections
+2024/09/08 18:33:56 [alert] 270#270: 512 worker_connections are not enough
+2024/09/08 18:34:03 [warn] 270#270: 512 worker_connections are not enough, reusing connections
+2024/09/08 18:34:04 [warn] 270#270: 512 worker_connections are not enough, reusing connections
+2024/09/08 18:34:04 [alert] 270#270: 512 worker_connections are not enough
+2024/09/08 18:38:07 [error] 270#270: *4338 "/var/www/html/api/index.html" is not found (2: No such file or directory), client: 192.168.0.89, server: localhost-nginx-proxy-manager, request: "GET /api/ HTTP/1.1", host: "192.168.0.9", referrer: "http://192.168.0.9/admin:8080"
+2024/09/08 18:44:33 [error] 270#270: *4370 "/var/www/html/api/index.html" is not found (2: No such file or directory), client: 192.168.0.89, server: localhost-nginx-proxy-manager, request: "GET /api/ HTTP/1.1", host: "192.168.0.9", referrer: "http://192.168.0.9/"
+2024/09/08 18:44:39 [error] 270#270: *4370 "/var/www/html/api/index.html" is not found (2: No such file or directory), client: 192.168.0.89, server: localhost-nginx-proxy-manager, request: "GET /api/ HTTP/1.1", host: "192.168.0.9", referrer: "http://192.168.0.9/"

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            display: inline-block;
+            margin: 0 15px;
+            color: #333;
+            text-decoration: none;
+            padding: 5px 10px;
+            background-color: #e7e7e7;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #333;
+            color: white;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Dashboard</h1>
+    </header>
+
+    <nav>
+        <a href="http://192.168.0.9:8080/admin">Pi-Hole</a>
+        <a href="http://192.168.0.9:3000">Grafana</a>
+       <a href="http://192.168.0.9:9001/buckets">Storage</a>
+        <a href="http://192.168.0.9:81">Admin</a> 
+    </nav>
+
+    <section>
+        <h2>About This Page</h2>
+        <p>One stop for managing all home monitoring systems</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 dashboard Page. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
