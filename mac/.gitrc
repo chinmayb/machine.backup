@@ -1,0 +1,9 @@
+alias gs="git status"
+alias gpf="git push origin --force-with-lease"
+alias gp="git push origin"
+
+
+alias addall="git add -A"
+alias add="git add ."
+alias ammend="git commit --amend -a"
+alias push="git push origin "
